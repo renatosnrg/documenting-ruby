@@ -1,0 +1,8 @@
+{ 
+	"name": "Documenting Ruby Code", 
+	"sections": [ 
+		{"section":"rdoc"},
+		{"section":"yard"},
+		{"section":"cbt"}  
+	]
+}

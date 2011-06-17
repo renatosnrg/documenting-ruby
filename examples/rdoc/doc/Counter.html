@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Counter</title>
+
+	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+	<script src="./js/jquery.js" type="text/javascript" 
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript" 
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript" 
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript" 
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+	
+	<div id="metadata">
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="./counter.rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="counter.rb">counter.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#headings">headings</a></li>
+					
+					<li><a href="#hyperlinks">hyperlinks</a></li>
+					
+					<li><a href="#inc">inc</a></li>
+					
+					<li><a href="#labeled_lists">labeled_lists</a></li>
+					
+					<li><a href="#lists">lists</a></li>
+					
+					<li><a href="#new">new</a></li>
+					
+					<li><a href="#non_verbatim_text">non_verbatim_text</a></li>
+					
+					<li><a href="#paragraphs">paragraphs</a></li>
+					
+					<li><a href="#rules">rules</a></li>
+					
+					<li><a href="#stop_comments">stop_comments</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+	
+		<div id="project-metadata">
+			
+			
+			
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index 
+					<span class="search-toggle"><img src="./images/find.png" 
+						height="16" width="16" alt="[+]" 
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value="" 
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+				
+					<li><a href="./Counter.html">Counter</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		
+		<h1 class="class">Counter</h1>
+		
+
+		<div id="description">
+			<p>
+Implements a simple accumulator, whose value is accessed via the attribute
+<em>counter</em>. Calling the method <a
+href="Counter.html#M000002">Counter#inc</a> increments this value.
+</p>
+
+		</div>
+
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+		<div id="attribute-method-details" class="method-section section">
+			<h3 class="section-header">Attributes</h3>
+
+			
+			<div id="counter-attribute-method" class="method-detail">
+				<a name="counter"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">counter</span><span 
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				The current value of the count
+				
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- Methods -->
+		
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+
+		
+			
+			<div id="new-method" class="method-detail">
+			
+				<a name="new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span 
+						class="method-args">(initial_value=0)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+create a new <a href="Counter.html">Counter</a> with the given initial
+value
+</p>
+					
+					
+					
+					<div class="method-source-code" 
+						id="new-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 13</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">initial_value</span>=<span class="ruby-value">0</span>)
+    <span class="ruby-ivar">@counter</span> = <span class="ruby-identifier">initial_value</span> 
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+
+		
+			
+			<div id="headings-method" class="method-detail">
+			
+				<a name="headings"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">headings</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+headings:
+</p>
+<h2>Level two heading (H2)</h2>
+<h3>Level three heading (H3)</h3>
+					
+					
+					
+					<div class="method-source-code" 
+						id="headings-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 59</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">headings</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="hyperlinks-method" class="method-detail">
+			
+				<a name="hyperlinks"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">hyperlinks</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+hyperlinks:
+</p>
+<ul>
+<li><a
+href="http://rdoc.sourceforge.net/doc/index.html">rdoc.sourceforge.net/doc/index.html</a>
+
+</li>
+<li><a href="http://rdoc.sourceforge.net/doc/index.html">rdoc documentation</a>
+
+</li>
+</ul>
+					
+					
+					
+					<div class="method-source-code" 
+						id="hyperlinks-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 80</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">hyperlinks</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="inc-method" class="method-detail">
+			
+				<a name="inc"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">inc</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+increment the current value of the count
+</p>
+					
+					
+					
+					<div class="method-source-code" 
+						id="inc-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 18</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">inc</span>
+    <span class="ruby-ivar">@counter</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> 
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="labeled-lists-method" class="method-detail">
+			
+				<a name="labeled_lists"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">labeled_lists</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+labeled lists:
+</p>
+<dl>
+<dt>cat</dt><dd>small domestic animal
+
+</dd>
+<dt><tt>cat</tt></dt><dd>command to copy standard input
+
+</dd>
+</dl>
+<p>
+tabular format:
+</p>
+<table>
+<tr><td valign="top">cat:</td><td>small domestic animal
+
+</td></tr>
+<tr><td valign="top"><tt>cat</tt>:</td><td>command to copy standard input
+
+</td></tr>
+</table>
+					
+					
+					
+					<div class="method-source-code" 
+						id="labeled-lists-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 52</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">labeled_lists</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="lists-method" class="method-detail">
+			
+				<a name="lists"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">lists</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+lists:
+</p>
+<ul>
+<li>bullet list
+
+</li>
+<li>bullet list
+
+</li>
+</ul>
+<ol>
+<li>numbered list
+
+</li>
+</ol>
+<ol>
+<li type="a">alpha list
+
+</li>
+</ol>
+<ol>
+<li type="A">alpha list
+
+</li>
+</ol>
+					
+					
+					
+					<div class="method-source-code" 
+						id="lists-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 40</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">lists</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="non-verbatim-text-method" class="method-detail">
+			
+				<a name="non_verbatim_text"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">non_verbatim_text</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+non-verbatim text:
+</p>
+<table>
+<tr><td valign="top"><em>italic</em>:</td><td><em>word</em> or <em>text</em>
+
+</td></tr>
+<tr><td valign="top"><b>bold</b>:</td><td><b>word</b> or <b>text</b>
+
+</td></tr>
+<tr><td valign="top"><tt>typewriter</tt>:</td><td><tt>word</tt> or <tt>text</tt>
+
+</td></tr>
+</table>
+					
+					
+					
+					<div class="method-source-code" 
+						id="non-verbatim-text-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 73</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">non_verbatim_text</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="paragraphs-method" class="method-detail">
+			
+				<a name="paragraphs"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">paragraphs</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+paragraphs / verbatim
+</p>
+<p>
+Paragraph Still Paragraph
+</p>
+<p>
+New Paragraph
+</p>
+<pre>
+  this.will.be(verbatim)
+</pre>
+					
+					
+					
+					<div class="method-source-code" 
+						id="paragraphs-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 30</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">paragraphs</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="rules-method" class="method-detail">
+			
+				<a name="rules"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">rules</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+rules:
+</p>
+<hr size="1"></hr><p>
+more text
+</p>
+					
+					
+					
+					<div class="method-source-code" 
+						id="rules-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 65</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">rules</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+
+		
+			
+			<div id="stop-comments-method" class="method-detail">
+			
+				<a name="stop_comments"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">stop_comments</span><span 
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Extract the age and calculate the date-of-birth. The DOB is returned as a
+Time object.
+</p>
+					
+					
+					
+					<div class="method-source-code" 
+						id="stop-comments-source">
+<pre>
+<span class="ruby-comment cmt"># File counter.rb, line 94</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">stop_comments</span>
+  <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+			</div>
+
+		
+		</div>
+	
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with $DEBUG to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish 
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+
